@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Fashion-haus</title>
+	<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="main">
+	<header class="header section">
+       <nav class="navbar" id="navBar">
+           <a class="logo" href="#" id="logo">Fashion Haus</a>
+            <ul class="menu" id="menu">
+                <li class="menu-item" id="menuItem1"><a class="menu-link" href="#news">News Reel</a></li>
+                <li class="menu-item" id="menuItem2"><a class="menu-link" href="#bags">Shopping</a></li>
+                <li class="menu-item" id="menuItem3"><a class="menu-link" href="#reviews">Reviews</a></li>
+                <li class="menu-item" id="menuItem4"><a class="menu-link" href="#fits">Community</a></li>
+                <li class="menu-item" id="menuItem5"><a class="menu-link" href="#brands">Brands</a></li>
+                <li class="menu-item" id="menuItem6"><a class="menu-link" href="#latest-news">Latest News</a></li>
+            </ul>
+            <button class="open-menu" id="openMenu" onclick="openMenu()"></button>
+            <button class="close-menu" id="closeMenu" onclick="closeMenu()"></button>
+        </nav>	
+    </header>
+	<!-- Fashion section -->
+	<section class="fashion-section section">
+		<div class="fashion-section-text-container">
+			<h2 class="section-title fashion-section-title">Fashion fits from the big brands.</h2>
+			<p class="text fashion-section-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce felis tellus, malesuada vel cursus et, sodales sit amet eros. Integer sed justo ac dolor molestie.</p>
+			<button type="button" class="click-button">Learn more</button>
+		</div>
+		<div class="fashion-image-container">
+           <img class="fashion-image" src="img/fashion/fashion-girl.png" alt="fashion-image">
+        </div>
+	</section>
+	<!-- ./ Fashion section -->
+	<!-- News Reel -->
+	<section class="news-section section" id="news">
+		<div class="section-title-container">
+			<p class="section-label">News Reel</p>
+			<h2 class="section-title">Latest Updates</h2>
+		</div>
+		<div class="news-row">
+			<div class="news-col-1-2">
+				<div class="news-col col-1">
+					<img src="img/news/news-img-1.png" alt="news-image" class="news-img-1">
+				</div>
+				<div class="news-col col-2">
+					<p class="date">10/04/2021</p>
+					<h3 class="section-title news-title">Be super confident in hot skirts.</h3>
+					<p class="text news-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce felis tellus, malesuada vel cursus et, sodales sit amet eros. Integer sed justo ac dolor molestie.<br><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce felis tellus, malesuada vel cursus et, sodales sit amet eros. Integer sed justo ac dolor molestie.</p>
+					<a class="learn-more" href="">Learn more</a>
+				</div>
+			</div>
+			<div class="news-col-3-4">
+				<div class="news-col col-3">
+					<p class="date">10/04/2021</p>
+					<h3 class="section-title news-title">How to take the best pics outdoors.</h3>
+					<p class="text news-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce felis tellus, malesuada vel cursus et, sodales sit amet eros. Integer sed justo ac dolor molestie.<br><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce felis tellus, malesuada vel cursus et, sodales sit amet eros. Integer sed justo ac dolor molestie.</p>
+					<a class="learn-more" href="">Learn more</a>
+				</div>
+				<div class="news-col col-4">
+					<img src="img/news/news-img-2.png" alt="news-image" class="news-img-2">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- ./ News Reel -->
+	<!-- Bags section -->
+	<section class="bags-section section" id="bags">
+		<div class="section-title-container">
+			<p class="section-label">Information</p>
+			<h2 class="section-title">Know your bags</h2>
+		</div>
+		<div class="bag-wrapper">
+			<a class="bag" href="">
+				<img src="img/bags/bag-1.png" alt="bag-image">
+				<h3 class="section-title bag-title">The New Clutch</h3>
+				<p class="text bag-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce felis tellus, malesuada vel cursus et, sodales sit amet eros.</p>
+				<p class="learn-more">Learn more</p>
+			</a>
+			<a class="bag" href="">
+				<img src="img/bags/bag-2.png" alt="bag-image">
+				<h3 class="section-title bag-title">The Backpack</h3>
+				<p class="text bag-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce felis tellus, malesuada vel cursus et, sodales sit amet eros.</p>
+				<p class="learn-more">Learn more</p>
+			</a>
+			<a class="bag" href="">
+				<img src="img/bags/bag-3.png" alt="bag-image">
+				<h3 class="section-title bag-title">The Traveller</h3>
+				<p class="text bag-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce felis tellus, malesuada vel cursus et, sodales sit amet eros.</p>
+				<p class="learn-more">Learn more</p>
+			</a>
+		</div>
+	</section>
+	<!-- ./ Bags section -->
+	<!-- Reviews -->
+	<section class="reviews-section section" id="reviews">
+		<div class="section-title-container">
+			<p class="section-label">Reviews</p>
+			<h2 class="section-title">What you’ve been saying</h2>
+		</div>
+		<div class="reviews-wrapper">
+			<div class="rev">
+				<article class="review">
+					<img class="review-image" src="img/reviews/trisha-lion.png" alt="man">
+					<h3 class="section-title review-title">Trisha Lion</h3>
+					<p class="review-info">Hermes Clutch</p>
+					<p class="text review-text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce felis tellus, malesuada vel cursus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.”</p>
+					<button type="button" class="click-button review-click-button">Shop Item</button>
+				</article>
+				<article class="review">
+					<img class="review-image" src="img/reviews/lionel-tech.png" alt="man">
+					<h3 class="section-title review-title">Lionel Tech</h3>
+					<p class="review-info">The Nike Jordan 2</p>
+					<p class="text review-text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce felis tellus, malesuada vel cursus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.”</p>
+					<button type="button" class="click-button review-click-button">Shop Item</button>
+				</article>
+				<article class="review">
+					<img class="review-image" src="img/reviews/britney.png" alt="man">
+					<h3 class="section-title review-title">Britney Spears</h3>
+					<p class="review-info">Zara T-Shirt</p>
+					<p class="text review-text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce felis tellus, malesuada vel cursus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.”</p>
+					<button type="button" class="click-button review-click-button">Shop Item</button>
+				</article>				
+			</div>
+		</div>
+	</section>
+	<!-- ./Reviews -->
+	<!-- Want fits -->
+	<section class="fits-section section" id="fits">
+		<div class="fits-container">
+			<div class="fits-image"></div>
+			<div class="fits-bg"></div>
+			<div class="fits-image-text">
+				<h2 class="section-title image-section-title">Want fits? Join the mailing list.</h2>
+				<p class="text image-main-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce felis tellus, malesuada vel cursus et, sodales sit amet eros. Integer sed justo ac dolor molestie.</p>
+				<button type="button" class="click-button fits-click-botton">Sign up now</button>
+			</div>
+		</div>
+	</section>
+	<!-- ./ Want fits -->
+	<!-- Brands -->
+    <section class="brands-section section" id="brands">
+		<div class="section-title-container">
+			<p class="section-label">Brands</p>
+			<h2 class="section-title">Who we’re trippin’ over</h2>
+		</div>
+        <div class="brands-container">
+            <div class="row">
+                <div class="col col-1">                
+                    <a class="brand-logo hermes" href=""><img src="img/brands/hermes.png" alt="hermes-logo" class="brand-logo-image hermes-logo"></a>
+                </div>
+                <div class="col col-2">
+                    <a class="brand-logo adidas" href=""><img src="img/brands/adidas.png" alt="adidas-logo" class="brand-logo-image adidas-logo"></a>
+                </div>
+                <div class="col col-3">
+                    <a class="brand-logo nike" href=""><img src="img/brands/nike.png" alt="nike-logo" class="brand-logo-image nike-logo"></a>
+                </div>
+                <div class="col col-4">
+                    <a class="brand-logo gucci" href=""><img src="img/brands/gucci.png" alt="gucci-logo" class="brand-logo-image gucci-logo"></a>
+                </div>
+                <div class="col col-5">
+                    <a class="brand-logo chanel" href=""><img src="img/brands/chanel.png" alt="chanel-logo" class="brand-logo-image chanel-logo"></a>
+                </div>
+                <div class="col col-6">
+                    <a class="brand-logo lv" href=""><img src="img/brands/lv.png" alt="lv-logo" class="brand-logo-image lv-logo"></a>
+                </div>
+            </div>
+		</div>
+	</section>
+	<!-- ./Brands -->
+	<!-- The latest news -->
+	<section class="latest-news-section section" id="latest-news">
+		<div class="latest-news-section-title-container">
+			<h4 class="latest-news-title">The latest in fashion news and views</h4>
+			<p class="text latest-news-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce felis tellus, malesuada vel cursus et, sodales sit amet eros. Integer sed justo ac dolor molestie.</p>
+		</div>
+		<div class="latest-news-container">	
+			<div class="latest-news-image-container"><img src="img/latest-news/latest-news.png" alt="image" class="latest-news-image"></div>
+			<div class="accordion-container">
+				<div class="accordion">
+					<div class="accordion__item">
+						<div class="accordion__item__title">
+							<button class="open-accordion" onclick="openAccordion1()">
+								<i class="fa-sharp fa-solid fa-circle-plus"></i>
+							</button>
+							<button class="close-accordion" id="closeAccordion1" onclick="closeAccordion1()">
+								<i class="fa-solid fa-circle-minus"></i>
+							</button> 
+						</div>
+						<div class="section-label accordion__title"> Big news is coming out of the house of Hermes.</div>
+						<div class="text accordion__item__content" id="accordion-text-1">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce felis tellus, malesuada vel cursus
+							et, sodales sit amet eros.
+							<p><a class="learn-more" href="">Learn more</a></p>
+						</div>
+					</div>
+					<div class="accordion__item">
+						<div class="accordion__item__title">
+							<button class="open-accordion" onclick="openAccordion2()">
+								<i class="fa-sharp fa-solid fa-circle-plus"></i>
+							</button>
+							<button class="close-accordion" id="closeAccordion2" onclick="closeAccordion2()">
+								<i class="fa-solid fa-circle-minus"></i>
+							</button>   
+						</div>
+						<div class="section-label accordion__title">Never before seen photos of Channel collection.</div>
+						<div class="text accordion__item__content" id="accordion-text-2">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce felis tellus, malesuada vel cursus
+							et, sodales sit amet eros.
+							<p><a class="learn-more" href="">Learn more</a></p>
+						</div>
+					</div>
+					<div class="accordion__item">
+						<div class="accordion__item__title">
+							<button class="open-accordion" onclick="openAccordion3()">
+								<i class="fa-sharp fa-solid fa-circle-plus"></i>
+							</button>
+							<button class="close-accordion" id="closeAccordion3" onclick="closeAccordion3()">
+								<i class="fa-solid fa-circle-minus"></i>
+							</button>
+						</div>
+						<div class="section-label accordion__title">Shock happenings in the world of Gucci bags.</div>
+						<div class="text accordion__item__content" id="accordion-text-3">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce felis tellus, malesuada vel cursus
+							et, sodales sit amet eros.
+							<p><a class="learn-more" href="">Learn more</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- ./ The latest news -->
+	<!-- Statistics -->
+	<section class="statistics-section section">
+		<div class="statistics-container">
+			<div class="statistics">
+				<i class="fa-regular fa-comment-dots icon"></i>
+				<p class="section-title number">99.9%</p>
+				<p class="section-label statistics-label">Fashion Reviews</p>
+				<p class="text statistics-text">verified real people</p>
+			</div>
+			<div class="statistics">
+				<i class="fa-solid fa-bag-shopping icon"></i>
+				<p class="section-title number">1001</p>
+				<p class="section-label statistics-label">Items For Sale</p>
+				<p class="text statistics-text">On the shop</p>
+			</div>
+			<div class="statistics">
+				<i class="fa-regular fa-star icon"></i>
+				<p class="section-title number">237</p>
+				<p class="section-label statistics-label">Website Reviews</p>
+				<p class="text statistics-text">5 Stars or more</p>
+			</div>
+			<div class="statistics">
+				<i class="fa-solid fa-tag icon label-icon"></i>
+				<p class="section-title number">1/4<sup>th</sup></p>
+				<p class="section-label statistics-label">Of All Brands Shown</p>
+				<p class="text statistics-text">Members see more</p>
+			</div>
+		</div>
+	</section>
+	<!-- ./ Statistics -->
+	<footer class="footer section">
+		<div class="footer-logo-container">
+			<a href="#" class="footer-logo logo">Fashion Haus</a>
+			<p class="footer-logo-after">© Fashion Haus 2021</p>
+		</div>
+		<div class="footer-row">
+			<div class="footer-col">
+				<p class="section-title footer-links-category">Shop</p>
+				<a href="#bags" class="footer-link">Bags</a>
+				<a href="" class="text footer-link">Shoes</a>
+				<a href="" class="text footer-link">Skirts</a>
+				<a href="" class="text footer-link">Hoodies</a>
+				<a href="" class="text footer-link">Shirts</a>
+			</div>
+			<div class="footer-col">
+				<p class="section-title footer-links-category">Info</p>
+				<a href="#news" class="text footer-link">Blog</a>
+				<a href="#latest-news" class="text footer-link">News</a>
+				<a href="#reviews" class="text footer-link">Reviews</a>
+			</div>
+			<div class="footer-col">
+				<p class="section-title footer-links-category">Social</p>
+				<a href="" class="text footer-link">Twitter</a>
+				<a href="" class="text footer-link">Instagram</a>
+				<a href="" class="text footer-link">Facebook</a>
+			</div>
+			<div class="footer-col">
+				<p class="section-title footer-links-category">Legal</p>
+				<a href="" class="text footer-link">Contact</a>
+				<a href="" class="text footer-link">Privacy</a>
+				<a href="" class="text footer-link">Terms</a>
+			</div>
+		</div>
+	</footer>
+</div>	
+</body>
+<script>
+	function openMenu() {
+		document.getElementById("menu").style.display = "flex";
+		document.getElementById("navBar").style.backgroundColor = "var(--accent)";
+		document.getElementById("logo").style.color = "#fff";
+		document.getElementById("closeMenu").style.display = "initial";
+		document.getElementById("menuItem1").style.boxShadow = "0px 10px 20px -20px";
+		document.getElementById("menuItem3").style.boxShadow = "0px 10px 20px -20px";
+		document.getElementById("menuItem4").style.boxShadow = "0px 10px 20px -20px";
+		document.getElementById("menuItem5").style.boxShadow = "0px 10px 20px -20px";
+		document.getElementById("menuItem6").style.boxShadow = "0px 10px 20px -20px";
+		document.getElementById("menuItem2").style.boxShadow = "0px 10px 20px -20px";
+		document.getElementById("openMenu").style.display = "none";
+		var styleElem = document.head.appendChild(document.createElement("style"));
+			styleElem.innerHTML = "#logo::after {background: white;}";
+	}
+	function closeMenu() {
+		document.getElementById("menu").style.display = "none";
+		document.getElementById("navBar").style.backgroundColor = "transparent";
+		document.getElementById("logo").style.color = "#000";
+		document.getElementById("closeMenu").style.display = "none";
+		document.getElementById("openMenu").style.display = "initial";
+		var styleElem = document.head.appendChild(document.createElement("style"));
+			styleElem.innerHTML = "#logo::after {background:  var(--accent);}";
+	}
+	const mediaQueryCondition = window.matchMedia( "(max-width: 1044px)")
+	if ( mediaQueryCondition.matches ){
+		document.querySelectorAll(".menu-item").forEach(n => n.addEventListener("click", () => {
+			document.getElementById("menu").style.display = "none";
+			document.getElementById("navBar").style.backgroundColor = "transparent";
+			document.getElementById("logo").style.color = "#000";
+			document.getElementById("closeMenu").style.display = "none";
+			document.getElementById("openMenu").style.display = "initial";
+			var styleElem = document.head.appendChild(document.createElement("style"));
+				styleElem.innerHTML = "#logo::after {background:  var(--accent);}";
+		}))
+	}
+</script>
+<script>
+    function openAccordion1() {
+        document.getElementById("accordion-text-1").style.display = "block";
+        document.getElementById("accordion-text-2").style.display = "none";
+        document.getElementById("accordion-text-3").style.display = "none";
+        document.getElementById("closeAccordion1").style.display = "inline-block";
+        document.getElementById("closeAccordion2").style.display = "none";
+        document.getElementById("closeAccordion3").style.display = "none";
+    }
+    function closeAccordion1() {
+        document.getElementById("accordion-text-1").style.display = "none";
+        document.getElementById("closeAccordion1").style.display = "none";
+    }
+    function openAccordion2() {
+        document.getElementById("accordion-text-1").style.display = "none";
+        document.getElementById("accordion-text-2").style.display = "block";
+        document.getElementById("accordion-text-3").style.display = "none";
+        document.getElementById("closeAccordion2").style.display = "inline-block";
+        document.getElementById("closeAccordion1").style.display = "none";
+        document.getElementById("closeAccordion3").style.display = "none";
+    }
+    function closeAccordion2() {
+        document.getElementById("accordion-text-2").style.display = "none";
+        document.getElementById("closeAccordion2").style.display = "none";
+    }
+    function openAccordion3() {
+        document.getElementById("accordion-text-1").style.display = "none";
+        document.getElementById("accordion-text-2").style.display = "none";
+        document.getElementById("accordion-text-3").style.display = "block";
+        document.getElementById("closeAccordion3").style.display = "inline-block";
+        document.getElementById("closeAccordion1").style.display = "none";
+        document.getElementById("closeAccordion2").style.display = "none";
+    }
+    function closeAccordion3() {
+        document.getElementById("accordion-text-3").style.display = "none";
+        document.getElementById("closeAccordion3").style.display = "none";
+    }
+</script>
+</html>
