@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header class="header section">
+        <nav class="navbar" id="navBar">
+            <a class="logo" href="../index.html" id="logo">Fashion Haus</a>
+             <ul class="menu" id="menu">
+                 <li class="menu-item" id="menuItem1"><a class="menu-link" href="#news">News Reel</a></li>
+                 <li class="menu-item" id="menuItem2"><a class="menu-link" href="#bags">Shopping</a></li>
+                 <li class="menu-item" id="menuItem3"><a class="menu-link" href="#reviews">Reviews</a></li>
+                 <li class="menu-item" id="menuItem4"><a class="menu-link" href="#">Contact us</a></li>
+                 <li class="menu-item" id="menuItem5"><a class="menu-link" href="#brands">Brands</a></li>
+                 <li class="menu-item" id="menuItem6"><a class="menu-link" href="#latest-news">Latest News</a></li>
+             </ul>
+             <button class="open-menu" id="openMenu" onclick="openMenu()"></button>
+             <button class="close-menu" id="closeMenu" onclick="closeMenu()"></button>
+         </nav>	
+</header>
+<main>
+    <section class="fashion-section section">
+        <div class="fashion-section-text-container">
+        <h2 class="section-title fashion-section-title">Contact us</h2>
+            <p class="text fashion-section-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="fashion-image-container">
+           <img class="fashion-image contact-us-image" src="../img/fashion/fashion-girl.png" alt="fashion-image">
+        </div>
+    </section>
+    <section>
+        <form class="contact-form" action="">
+            <div class="form-row">
+                <div class="input-control">
+                    <input class="input" type="text" id="name">
+                    <label class="label" for="name">First Name</label>
+                </div>
+                <div class="input-control">
+                    <input class="input" type="text" id="lastName">
+                    <label class="label" for="lastName">Last Name</label>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="input-control">
+                    <input class="input" type="text" id="address">
+                    <label class="label" for="address">Address</label>
+                </div>
+                <div class="input-control">
+                    <input class="input" type="text" id="phone">
+                    <label class="label" for="phone">Phone</label>
+                </div>
+            </div>    
+            <div class="input-control">
+                <textarea cols="10" rows="10" class="input" type="text" id="message"></textarea>
+                <label class="label" for="message">Messsage</label>
+            </div>
+        </form>
+    </section>
+</main>
+<footer class="footer section">
+		<div class="footer-logo-container">
+			<a href="../index.html" class="footer-logo logo">Fashion Haus</a>
+			<p class="footer-logo-after">© Fashion Haus 2021</p>
+		</div>
+		<div class="footer-row">
+			<div class="footer-col">
+				<p class="section-title footer-links-category">Shop</p>
+				<a href="#bags" class="footer-link">Bags</a>
+				<a href="" class="text footer-link">Shoes</a>
+				<a href="" class="text footer-link">Skirts</a>
+				<a href="" class="text footer-link">Hoodies</a>
+				<a href="" class="text footer-link">Shirts</a>
+			</div>
+			<div class="footer-col">
+				<p class="section-title footer-links-category">Info</p>
+				<a href="#news" class="text footer-link">Blog</a>
+				<a href="#latest-news" class="text footer-link">News</a>
+				<a href="#reviews" class="text footer-link">Reviews</a>
+			</div>
+			<div class="footer-col">
+				<p class="section-title footer-links-category">Social</p>
+				<a href="" class="text footer-link">Twitter</a>
+				<a href="" class="text footer-link">Instagram</a>
+				<a href="" class="text footer-link">Facebook</a>
+			</div>
+			<div class="footer-col">
+				<p class="section-title footer-links-category">Legal</p>
+				<a href="" class="text footer-link">Contact</a>
+				<a href="" class="text footer-link">Privacy</a>
+				<a href="" class="text footer-link">Terms</a>
+			</div>
+		</div>
+</footer>
+</body>
+</html>

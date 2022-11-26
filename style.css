@@ -2,6 +2,7 @@
 1. General
 2. Layout
 3. Section
+4. Contact us page
 */
 
 /* 1. General */
@@ -187,7 +188,6 @@ button {
 	align-items: center;
 	width: 100%;
 }
-
 /* 3. Sections */
 
 /* Header */
@@ -307,8 +307,8 @@ button {
 }
 
 .fashion-image {
-	width: 100%;
-	max-width: 500px;
+	width: 500px;
+	max-width: 100%;
 	position: relative;
 }
 
@@ -949,6 +949,63 @@ button {
 	color: var(--title-color);
 	margin: 5px 0;
 }
+
+/* 4. Contact us page*/
+
+.input-control {
+	position: relative;
+}
+
+.contact-us-image {
+	height: 310px;
+    object-fit: cover;
+    object-position: left -29px;
+}
+
+.contact-form {
+	width: 100%;
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 30px;
+}
+
+@media (min-width: 768px){
+	.form-row {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		column-gap: 30px;
+		row-gap: 30px;
+	}
+}
+
+.input {
+	border: 1px solid #bbb888;
+	padding: 10px 20px;
+	border-radius: 8px;
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.label {
+	position: absolute;
+	left: 20px;
+	transform: translateY(7px);
+	color: #86898e;
+	transition: all 0.3s;
+	background-color: white;
+	padding: 3px 5px;
+}
+
+.input:focus {
+	outline-color: var(--accent);
+}
+
+.input:focus + .label {
+	color: var(--title-color);
+	font-size: 12px;
+	transform: translateY(-10px) scale(0.8);
+}
+
 
 @media(max-width: 1280px){
 	.section {
